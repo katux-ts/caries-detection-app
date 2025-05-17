@@ -81,7 +81,7 @@ if step == 1:
     st.markdown("1. Фото должно быть сделано при хорошем освещении (естественном или лампе сбоку).\n" 
                 "2. Важно, чтобы изображение было четким, не размытым, и в кадре не было лишних предметов.\n" 
                 "3. Голова ребёнка должна смотреть прямо, рот открыт, зубы хорошо видны, губы не мешают обзору.")
-    st.markdown('<a href="/static/front_example.jpeg" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
+    st.markdown('<a href="https://raw.githubusercontent.com/katux-ts/caries-detection-app/main/static/front_example.jpeg" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
 
     if uploaded_file_1:
         image_1 = process_uploaded_file(uploaded_file_1)
@@ -99,7 +99,7 @@ elif step == 2:
     st.markdown("<h3>Шаг 2: Загрузите фото верхней челюсти (необязательно)</h3>", unsafe_allow_html=True)
     uploaded_file_2 = st.file_uploader("Фото верхней челюсти", type=["jpg", "jpeg", "png", "heic"])
 
-    st.markdown('<a href="/static/upper_example.jpg" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
+    st.markdown('<a href="https://raw.githubusercontent.com/katux-ts/caries-detection-app/main/static/upper_example.jpg" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
 
     if uploaded_file_2:
         image_2 = process_uploaded_file(uploaded_file_2)
@@ -121,7 +121,7 @@ elif step == 3:
     st.markdown("<h3>Шаг 3: Загрузите фото нижней челюсти (необязательно)</h3>", unsafe_allow_html=True)
     uploaded_file_3 = st.file_uploader("Фото нижней челюсти", type=["jpg", "jpeg", "png", "heic"])
 
-    st.markdown('<a href="/static/lower_example.JPG" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
+    st.markdown('<a href="https://raw.githubusercontent.com/katux-ts/caries-detection-app/main/static/lower_example.JPG" target="_blank"> Пример фото 📷</a> ', unsafe_allow_html=True)
 
     if uploaded_file_3:
         image_3 = process_uploaded_file(uploaded_file_3)
