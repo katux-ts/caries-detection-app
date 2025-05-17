@@ -1,5 +1,6 @@
 streamlit
 torch
+torchvision
 numpy
 Pillow
 albumentations==1.3.1
