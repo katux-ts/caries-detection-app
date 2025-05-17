@@ -17,8 +17,8 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.utils import ImageReader
 
 # регистрация шрифта
-pdfmetrics.registerFont(TTFont('DejaVu', 'C:/Users/Mi/vs_projects/caries_detection_app/fonts/DejaVuSans.ttf'))
-pdfmetrics.registerFont(TTFont('DejaVu-Bold', 'C:/Users/Mi/vs_projects/caries_detection_app/fonts/DejaVuSans-Bold.ttf'))
+pdfmetrics.registerFont(TTFont('DejaVu', 'fonts/DejaVuSans.ttf'))
+pdfmetrics.registerFont(TTFont('DejaVu-Bold', 'fonts/DejaVuSans-Bold.ttf'))
 
 # заголовок и описание приложения
 st.markdown("<h2 style='text-align: center;'>Диагностика кариеса у детей от 1 до 4 лет</h2>", unsafe_allow_html=True)
